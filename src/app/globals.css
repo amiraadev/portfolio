@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0px;
+  overflow: hidden; /* Hide scrollbars */
+  cursor: wait;
+  background-color: #222;
+  color: #fff;
+}

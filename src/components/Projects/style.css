@@ -1,0 +1,79 @@
+/* .projects */
+.projects {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: column;
+    margin-top: 300px;
+  }
+  
+  /* .projects .body */
+  .projects .body {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  /* .projects .modalContainer */
+  .projects .modalContainer {
+    height: 350px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 3;
+  }
+  
+  /* .projects .modalSlider */
+  .projects .modalSlider {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: top 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  /* .projects .modal */
+  .projects .modal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .projects .modal img */
+  .projects .modal img {
+    height: auto;
+  }
+  
+  /* .projects .cursor, .projects .cursorLabel */
+  .projects .cursor,
+  .projects .cursorLabel {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #530000;
+    color: white;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+    pointer-events: none;
+  }
+  
+  /* .projects .cursorLabel */
+  .projects .cursorLabel {
+    background-color: transparent;
+  }
+  

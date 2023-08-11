@@ -1,0 +1,65 @@
+/* .landing */
+.landing {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* .landing img */
+  .landing img {
+    object-fit: cover;
+  }
+  
+  /* .landing .sliderContainer */
+  .landing .sliderContainer {
+    position: absolute;
+    top: calc(100vh - 350px);
+  }
+  
+  /* .landing .slider */
+  .landing .slider {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  /* .landing .slider p */
+  .landing .slider p {
+    position: relative;
+    margin: 0px;
+    color: rgb(254, 252, 252);
+    /* color: rgb(228, 227, 227); */
+    font-size: 230px;
+    font-weight: 500;
+    padding-right: 50px;
+  }
+  
+  /* .landing .slider p:nth-of-type(2) */
+  .landing .slider p:nth-of-type(2) {
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+  
+  /* .landing .description */
+  .landing .description {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  /* .landing .description p */
+  .landing .description p {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  
+  /* .landing .description svg */
+  .landing .description svg {
+    transform: scale(2);
+    margin-bottom: 100px;
+  }
+  

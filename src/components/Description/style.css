@@ -1,0 +1,86 @@
+.description {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.description .body {
+  max-width: 1400px;
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+.description .body p {
+  margin: 0px;
+}
+
+.description .body p:nth-of-type(1) {
+  font-size: 26px;
+  gap: 8px;
+  line-height: 1.3;
+}
+
+.description .body p:nth-of-type(1) span {
+  margin-right: 3px;
+}
+
+.description .body p:nth-of-type(1) .mask {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.description .body p:nth-of-type(2) {
+  font-size: 18px;
+  width: 100%;
+  font-weight: 300;
+}
+
+.description .body .button {
+  top: 80%;
+  left: calc(100% - 200px);
+  width: 180px;
+  height: 180px;
+  background-color: #1c1d20;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.description .body .button p {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  z-index: 1;
+}
+
+.description .moreWork {
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid grey;
+}
+
+
+
+@media (max-width: 768px) {
+  .description {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .description .body p:nth-of-type(1) {
+    font-size: 22px;
+    gap: 8px;
+    line-height: 1.3;
+  }
+}
