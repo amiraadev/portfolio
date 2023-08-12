@@ -16,8 +16,8 @@ const slider1 = [
     },
     {
         color: "#4d5055",
-        src: "funny.jpg",
-        link:"https://amiraallagui.github.io/gym-app/"
+        src: "projects/blog-fashion.png",
+        link:"https://amiraallagui.github.io/fashion-blog/"
     },
     {
         color: "#4d5055",
